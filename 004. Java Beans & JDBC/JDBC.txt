@@ -1,0 +1,11 @@
+javac -cp ".;C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.33.jar" JDBCExample.java
+java -cp ".;C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.33.jar" JDBCExample
+
+javac -cp ".;C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.33.jar" InsertDisplayExample.java
+java -cp ".;C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.33.jar" InsertDisplayExample
+
+javac -cp ".;C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.33.jar" RetrieveDataFromMultipleTables.java
+java -cp ".;C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.33.jar" RetrieveDataFromMultipleTables
+
+javac -cp ".;C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.33.jar" TransactionManagementExample.java
+java -cp ".;C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.33.jar" TransactionManagementExample

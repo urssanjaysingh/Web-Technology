@@ -1,0 +1,2 @@
+<h3>Welcome to Dynamic Content!</h3>
+<p>This is an example of dynamically loaded content.</p>

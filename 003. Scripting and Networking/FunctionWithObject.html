@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <script type="text/javascript">
+            var myCar = new Object();
+            myCar.make = "Nissan";
+            myCar.model = "N-54";
+            myCar.year = 1972;
+
+            function user(name, email) {
+                this.name = name;
+                this.email = email;
+                this.toString = function userToString() {
+                    return("Name: " + this.name + "<br>" + "Email: " + this.email);
+                }
+            }
+
+            var obj = new user("Aditya", "aditya123@example.com");
+            document.write(obj.toString());
+        </script>
+    </body>
+</html>

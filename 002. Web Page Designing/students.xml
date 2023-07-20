@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "students.dtd">
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students>
+    <student>
+        <rollNumber>101</rollNumber>
+        <name>John Doe</name>
+        <marks>
+            <subject>Mathematics</subject>
+            <obtained>85</obtained>
+        </marks>
+        <marks>
+            <subject>Physics</subject>
+            <obtained>76</obtained>
+        </marks>
+        <marks>
+            <subject>Chemistry</subject>
+            <obtained>82</obtained>
+        </marks>
+        <marks>
+            <subject>English</subject>
+            <obtained>90</obtained>
+        </marks>
+        <marks>
+            <subject>Computer Science</subject>
+            <obtained>88</obtained>
+        </marks>
+        <totalMarks>400</totalMarks>
+        <percentage>84</percentage>
+    </student>
+    <student>
+        <rollNumber>102</rollNumber>
+        <name>Jane Smith</name>
+        <marks>
+            <subject>Mathematics</subject>
+            <obtained>92</obtained>
+        </marks>
+        <marks>
+            <subject>Physics</subject>
+            <obtained>78</obtained>
+        </marks>
+        <marks>
+            <subject>Chemistry</subject>
+            <obtained>85</obtained>
+        </marks>
+        <marks>
+            <subject>English</subject>
+            <obtained>87</obtained>
+        </marks>
+        <marks>
+            <subject>Computer Science</subject>
+            <obtained>92</obtained>
+        </marks>
+        <totalMarks>440</totalMarks>
+        <percentage>88</percentage>
+    </student>
+    <student>
+        <rollNumber>103</rollNumber>
+        <name>Michael Johnson</name>
+        <marks>
+            <subject>Mathematics</subject>
+            <obtained>78</obtained>
+        </marks>
+        <marks>
+            <subject>Physics</subject>
+            <obtained>80</obtained>
+        </marks>
+        <marks>
+            <subject>Chemistry</subject>
+            <obtained>75</obtained>
+        </marks>
+        <marks>
+            <subject>English</subject>
+            <obtained>85</obtained>
+        </marks>
+        <marks>
+            <subject>Computer Science</subject>
+            <obtained>92</obtained>
+        </marks>
+        <totalMarks>410</totalMarks>
+        <percentage>82</percentage>
+    </student>
+</students>

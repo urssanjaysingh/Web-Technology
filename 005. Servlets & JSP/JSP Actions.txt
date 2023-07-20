@@ -1,0 +1,41 @@
+<!-- Including the header.jsp file -->
+<jsp:include page="header.jsp" />
+
+<!-- Forwarding the request to otherpage.jsp -->
+<jsp:forward page="otherpage.jsp" />
+
+<!-- Creating or retrieving a JavaBean object -->
+<jsp:useBean id="myBean" class="com.example.MyBean" scope="request" />
+
+<!-- Setting properties of a JavaBean object -->
+<jsp:setProperty name="myBean" property="name" value="${param.name}" />
+
+<!-- Retrieving and displaying a property value from a JavaBean object -->
+<p>Welcome, <jsp:getProperty name="myBean" property="name" />!</p>
+
+<!-- Defining an attribute value -->
+<jsp:attribute name="message">
+    Hello, World!
+</jsp:attribute>
+
+<!-- Using the attribute value -->
+<p><jsp:attribute name="message" /></p>
+
+<!-- Defining the body content -->
+<jsp:body>
+    <p>This is the body content.</p>
+</jsp:body>
+
+<!-- Using the body content -->
+<jsp:body />
+
+<!-- Creating an HTML element -->
+<jsp:element name="h1">
+    <jsp:attribute name="class">heading</jsp:attribute>
+    Hello, World!
+</jsp:element>
+
+<!-- Displaying plain text -->
+<jsp:text>
+    This is some plain text.
+</jsp:text>

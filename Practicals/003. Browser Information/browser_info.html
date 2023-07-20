@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Browser Information</title>
+        <script type="text/javascript">
+            function displayBrowserInfo() {
+                document.getElementById("browser-info").innerHTML =
+                "Codename: " + navigator.appCodeName + "<br>" +
+                "Browser name: " + navigator.appName + "<br>" +
+                "Version: " + navigator.appVersion + "<br>" +
+                "Cookie enable: " + navigator.cookieEnabled + "<br>" +
+                "Java Enable: " + navigator.javaEnabled + "<br>" +
+                "Platform: " + navigator.platform + "<br>" +
+                "Plugins: " + navigator.plugins + "<br>" +
+                "Language: " + navigator.language + "<br>" +
+                "Online: " + navigator.onLine + "<br>" +
+                "User agent: " + navigator.userAgent;
+            }
+        </script>
+    </head>
+
+    <body onload="displayBrowserInfo()">
+        <h1>Browser Information</h1>
+        <div id="browser-info"></div>
+    </body>
+
+</html>

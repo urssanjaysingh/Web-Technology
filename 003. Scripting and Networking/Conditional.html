@@ -1,0 +1,38 @@
+<html>
+
+    <body>
+
+        <script type="text/javascript">
+            var d = new Date();
+
+            var time = d.getHours();
+            if (time < 10) {
+                document.write("Good Day");
+            } else if (time > 10 && time < 16) {
+                document.write("Good Afternoon");
+            } else {
+                document.write("Good Night");
+            }
+
+            document.write("<br><br>");
+
+            var theDay = d.getDay();
+            switch(theDay) 
+            {
+                case 1:
+                    document.write("Finally Monday");
+                    break;
+                case 2:
+                    document.write("Super Tuesday");
+                    break;
+                case 0: 
+                    document.write("Sleepy Sunday");
+                    break;
+                default:
+                    document.write("I'm looking forward to this weekend!");
+            }
+        </script>
+
+    </body>
+
+</html>

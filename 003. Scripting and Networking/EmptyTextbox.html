@@ -1,0 +1,19 @@
+<html>
+    <script>
+        function required() {
+            if (document.myform.text1.value.length == 0) {
+                alert("Textbox is empty");
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+    <body>
+        <form name="myform" method="post" onsubmit="return required()">
+            <input type="text" name="text1">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+</html>
